@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<img src="images/monlogo.jpg" alt="Logo" style="height:150px; vertical-align: middle; margin-right:10px;">
+<h1 style="display:inline;">Vanie Cré'Art</h1>
+    <meta charset="UTF-8">
+    <title>Catalogue de Vêtements</title>
+    <style>
+        body {
+            font-family: Complex, sans-serif;
+            background-color: #FA003F;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #E5788F;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 15px;
+            width: 200px;
+            text-align: center;
+        }
+        .product img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .product h2 {
+            font-size: 18px;
+            margin: 10px 0 5px;
+        }
+        .product p {
+            font-size: 16px;
+            color: #555;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Catalogue de Vêtements</h1>
+    </header>
+
+    <div class="container">
+        <!-- Produit 3 -->
+        <div class="product">
+            <img src="images/robe3.jpg" alt="Mini robe">
+            <h2>Mini robe vert </h2>
+            <p>Prix : 30 000Ar</p>
+        </div>
+
+        <!-- Produit 4 -->
+        <div class="product">
+            <img src="images/chemise1.jpg" alt="Chemise bleue">
+            <h2>Chemise bleue </h2>
+            <p>Prix : 20 000Ar</p>
+        </div>
+
+        <!-- Produit 5 -->
+        <div class="product">
+            <img src="images/pantalon1.jpg" alt="Pantalon marron">
+            <h2>Pantalon marron </h2>
+            <p>Prix : 30 000Ar</p>
+        </div>
+
+        <!-- Produit 6 -->
+        <div class="product">
+            <img src="images/robe4.jpg" alt="Fleuri rouge">
+            <h2>Robe fleurie rouge </h2>
+            <p>Prix : 35 000Ar</p>
+        </div>
+
+
+    <div class="container">
+        <!-- Produit 7 -->
+        <div class="product">
+            <img src="images/robe1.jpg" alt="Mini robe">
+            <h2>Mini robe rouge </h2>
+            <p>Prix : 30 000Ar</p>
+        </div>
+
+        <!-- Produit 8 -->
+        <div class="product">
+            <img src="images/robe2.jpg" alt="Robe bleue">
+            <h2>Robe bleue </h2>
+            <p>Prix : 35 000Ar</p>
+        </div>
+
+        <!-- Produit 9 -->
+        <div class="product">
+            <img src="images/robe5.jpg" alt="Robe satin">
+            <h2>Robe satin </h2>
+            <p>Prix : 30 000Ar</p>
+        </div>
+
+        <!-- Produit 10 -->
+        <div class="product">
+            <img src="images/robe6.jpg" alt="Robe jaune">
+            <h2>Robe Robe jaune </h2>
+            <p>Prix : 25 000Ar</p>
+        </div>
+
+
+    <div class="container">
+        <!-- Produit 11 -->
+        <div class="product">
+            <img src="images/robe7.jpg" alt="Mini robe orange">
+            <h2>Mini robe orange </h2>
+            <p>Prix : 30 000Ar</p>
+        </div>
+
+        <!-- Produit 12 -->
+        <div class="product">
+            <img src="images/robe8.jpg" alt="Robe africaine">
+            <h2>Robe africaine </h2>
+            <p>Prix : 35 000Ar</p>
+        </div>
+
+        <!-- Produit 13 -->
+        <div class="product">
+            <img src="images/robe9.jpg" alt="Robe arc en ciel près du corps">
+            <h2>Robe arc en ciel près du corps </h2>
+            <p>Prix : 35 000Ar</p>
+        </div>
+
+        <!-- Produit 14 -->
+        <div class="product">
+            <img src="images/robe10.jpg" alt="Robe vert olive">
+            <h2>Robe Robe vert olive </h2>
+            <p>Prix : 35 000Ar</p>
+        </div>
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Catalogue de Vêtements</title>
+    <style>
+        body {
+            font-family: Complex, sans-serif;
+            margin: 0;
+            background-color: #f0f0f0;
+            padding-top: 50px; /* espace pour le menu fixe */
+        }
+
+        /* Menu de navigation */
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #E5788F;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            z-index: 1000;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+            border-radius: 5px;
+        }
+
+        .navbar a:hover {
+            background-color: #555;
+        }
+
+        /* Sections */
+        section {
+            max-width: 1000px;
+            margin: 20px auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .product {
+            background-color: white;
+            border-radius: 8px;
+            margin: 10px;
+            padding: 15px;
+            width: 200px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .product img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+
+        .product h2 {
+            font-size: 18px;
+            margin: 10px 0 5px;
+        }
+
+        .product p {
+            font-size: 16px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Menu de navigation -->
+    <div class="navbar">
+        <a href="#hauts">Hauts</a>
+        <a href="#robes">Robes</a>
+        <a href="#chemises">Chemises</a>
+        <a href="#pantalons">Pantalons</a>
+        <a href="#ensemble">Ensemble</a>
+        <a href="#combiné">Combiné</a>
+        <a href="#costume">Costumes</a>
+	<input type="text" id="search" placeholder="Rechercher...">
+	<button class="btn-settings" onclick="openSettings()">⚙ Paramètres</button>
+	<a href="#Menu">Menu</a>
+    </div>
+
+ <section id="bio">
+    <h1></h1>
+    <p>
+        “Chez Vanie Cré’Art votre satisfaction est le signe de notre réussite”
+	 - Adresse: Salazamy, 50 mètre en face à droit de Pandora
+	 - Contact: +261 34 25 737 73
+    </p>
+</section>
+
+    </div>
+<script>
+const searchInput = document.getElementById("search");
+
+searchInput.addEventListener("keyup", function() {
+    const filter = searchInput.value.toLowerCase();
+    const products = document.querySelectorAll(".product");
+
+    products.forEach(product => {
+        const name = product.querySelector("h2").textContent.toLowerCase();
+        if(name.includes(filter)) {
+            product.style.display = "";
+        } else {
+            product.style.display = "none";
+        }
+    });
+});
+</script>
+
+</body>
+</html>
